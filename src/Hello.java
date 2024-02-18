@@ -21,5 +21,14 @@ public class Hello {
         }else{
             System.out.println("you failed");
         }
+
+        int newValue = 50;
+        if (newValue == 50){
+            System.out.println("this is an error");
+        }
+
+        String makeOfCar = "honda";
+        boolean isDomestic = makeOfCar == "honda" ? false : true;
+        System.out.println(isDomestic);
     }
 }
